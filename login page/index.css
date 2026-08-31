@@ -1,0 +1,44 @@
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f6f8;
+}
+
+#login {
+    background-color: #ffffff;
+    width: 380px;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#imgofpage{
+    align-self: center;
+    height: 100px;
+}
+
+h3{
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#username,#password{
+    align-items: left;
+    text-align: left;
+}
+
+button{
+    color: white;
+    background-color: rgb(4, 112, 19);
+}
