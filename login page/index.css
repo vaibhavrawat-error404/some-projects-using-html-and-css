@@ -15,7 +15,7 @@ body {
 
 #login {
     background-color: #ffffff;
-    width: 380px;
+    width: 400px;
     padding: 30px 25px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -24,7 +24,7 @@ body {
 
 #imgofpage{
     align-self: center;
-    height: 100px;
+    height: 200px;
 }
 
 h3{
