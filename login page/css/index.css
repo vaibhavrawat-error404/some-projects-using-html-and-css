@@ -31,16 +31,19 @@ h3{
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 .info{
     align-items: left;
+    line-height: 36px;
     text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-{
-    align-items: center;
-    text-align: center;
+.info label{
+    font-size: 13px;
 }
 
 button{
