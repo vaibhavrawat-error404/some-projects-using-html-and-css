@@ -24,16 +24,17 @@ body {
 
 #imgofpage{
     align-self: center;
-    height: 200px;
+    height: 250px;
 }
 
 h3{
     align-self: center;
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 1px;
+    margin-bottom: 15px;
 }
 
 .info{
@@ -64,5 +65,14 @@ button{
     background-color: rgb(4, 112, 19);
     border: 2px solid rgb(4, 112, 19);
     border-radius: 3px;
-    width: 50px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+#signup text{
+    font-size: 14px;
 }
