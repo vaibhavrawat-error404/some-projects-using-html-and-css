@@ -1,0 +1,119 @@
+/* 1. Global Reset & Font Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 2. Center the card on the screen */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* 3. Card Container */
+#login {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 35px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* 4. Logo / Top Image */
+#imgofpage {
+    height: 45px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+/* 5. Header Title */
+#login h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 24px;
+}
+
+/* 6. Form Input Groups */
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+    color: #333333;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Placeholder styling */
+.input-group input::placeholder {
+    color: #9ca3af;
+    font-size: 0.9rem;
+}
+
+/* Focus state for inputs */
+.input-group input:focus {
+    border-color: #43a047;
+    box-shadow: 0 0 0 3px rgba(67, 160, 71, 0.15);
+}
+
+/* 7. Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #43a047;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+button:active {
+    background-color: #2e7d32;
+}
+
+/* 8. Bottom Link */
+.signup-text {
+    margin-top: 24px;
+    font-size: 0.9rem;
+    color: #1f2937;
+}
+
+.signup-text a {
+    color: #5c3a92;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
