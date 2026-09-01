@@ -74,5 +74,9 @@ button{
 }
 
 #signup text{
+    font-size: 13px;
+}
+#signup a{
+    text-decoration: none;
     font-size: 14px;
 }
